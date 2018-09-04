@@ -1,0 +1,285 @@
+
+<div class="container">
+
+  <h3>Form Scheduling</h3>
+<div>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Select Cinema
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Cinema 1</a>
+      <a class="dropdown-item" href="#">Cinema 2</a>
+      <a class="dropdown-item" href="#">Cinema 3</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-4">
+    <table class="table table-sm">
+      <thead>
+      <tr>
+        <th scope="col">Screen</th>
+        <th scope="col">Sounds</th>
+        <th scope="col">Seats</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1</td>
+        <td>3D</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2D</td>
+        <td>100</td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+  <div class="col-8">
+    <table class="table table-sm">
+      <thead>
+      <tr>
+        <td scope="col">9</td>
+        <td scope="col">10</td>
+        <td scope="col">11</td>
+        <td scope="col">12</td>
+        <td scope="col">13</td>
+        <td scope="col">14</td>
+        <td scope="col">15</td>
+        <td scope="col">16</td>
+        <td scope="col">17</td>
+        <td scope="col">18</td>
+        <td scope="col">19</td>
+        <td scope="col">20</td>
+        <td scope="col">21</td>
+        <td scope="col">22</td>
+        <td scope="col">23</td>
+        <td scope="col">00</td>
+
+
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+
+      </tr>
+      <tr>
+
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+      </tr>
+      <tr>
+
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+
+</div>
+
+  <button type="button" id= "movie" class="btn btn-primary">Movie</button>
+
+  <button type="button" class="btn btn-success">Trailer</button>
+  <button type="button" class="btn btn-danger">Ad</button>
+
+  <section>
+  <h4>Drag your Movie</h4>
+
+  <div class="area">
+    <div>
+    <input type="text" class="form-control" id="search" placeholder="search movie">
+    </div>
+  <div class="box" appMovable>
+        Die Hard <br>
+        120 min
+  </div>
+
+    <div class="box" appMovable>
+      Killers
+      <br>
+      140 min
+    </div>
+
+    <div class="box" appMovable>
+      After Earth<br>
+      160 min
+    </div>
+
+    <div class="box" appMovable>
+      Blood Race <br>
+      90 min
+    </div>
+
+    <div class="box" appMovable>
+      Rocky <br>
+      120 min
+    </div>
+
+
+  </div>
+  </section>
+
+
+
+<!--<section>-->
+  <!--<h2>Part 3 - movable area</h2>-->
+
+  <!--<div class="area" appMovableArea>-->
+    <!--<div class="box" appMovable *ngFor="let trapped of trappedBoxes">-->
+      <!--{{ trapped }}-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <!--<button (click)="add()">Add</button>-->
+<!--</section>-->
+
+<!--<section>-->
+  <!--<h2>Part 4 - the draggable helper</h2>-->
+
+  <!--<div class="box" appDraggable>-->
+    <!--Drag me!-->
+
+    <!--<div class="box helper" *appDraggableHelper>-->
+      <!--Drag me!-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</section>-->
+
+<!--<section>-->
+  <!--<h2>Part 5 - the sortable list</h2>-->
+
+  <!--<h3>Vertical</h3>-->
+
+  <!--<ul appSortableList (sort)="sort($event)">-->
+    <!--<li *ngFor="let box of sortableList" class="box" appSortable>-->
+      <!--{{ box }}-->
+      <!--<div class="box" *appDraggableHelper>{{ box }}</div>-->
+    <!--</li>-->
+  <!--</ul>-->
+
+  <!--<h3>Horizontal</h3>-->
+
+  <!--<ul class="horizontal" appSortableList (sort)="sort($event)">-->
+    <!--<li *ngFor="let box of sortableList" class="box" appSortable>-->
+      <!--{{ box }}-->
+      <!--<div class="box" *appDraggableHelper>{{ box }}</div>-->
+    <!--</li>-->
+  <!--</ul>-->
+<!--</section>-->
